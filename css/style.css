@@ -85,5 +85,14 @@ header {
         color: white;
         padding: 15px 30px;
         border-radius: 50px;
-        letter-spacing: ;
+        text-transform: uppercase;
+        letter-spacing: 1.1px;
+        font-weight: 600;
+        margin-top: 1rem;
+        transition: backround-colore 0.3s ease,transition 0.2s ease;
+    }
+
+    .hero a:hover{
+        background-color: var(--violet-fonce);
+        transform: translateY(-3px);
     }
